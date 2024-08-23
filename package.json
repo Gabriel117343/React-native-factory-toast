@@ -1,6 +1,6 @@
 {
   "name": "react-native-toast-factory",
-  "version": "1.8.8",
+  "version": "1.8.9",
   "description": "🍞 This module is about displaying Toasts in React Native.",
   "main": "./dist\\module\\index.js",
   "types": "dist/module/react-native-toast-lite.d.ts",

@@ -1,12 +1,11 @@
 # react-native-toast-factory
 
-![npm version](https://img.shields.io/npm/v/react-native-toast-factory.svg?style=flat-square)
+![npm version](https://img.shields.io/npm/react-native-toast-factory.svg?style=flat-square)
 ![npm downloads](https://img.shields.io/npm/dm/react-native-toast-factory.svg?style=flat-square)
-![License](https://img.shields.io/npm/l/react-native-toast-factory.svg?style=flat-square)
 ![Build Status](https://img.shields.io/github/actions/workflow/status/Gabriel117343/React-native-toast-factory/main.yml?style=flat-square)
 ![Platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-blue.svg?style=flat-square)
 ![Issues](https://img.shields.io/github/issues/Gabriel117343/React-native-toast-factory?style=flat-square)
-![Expo](https://img.shields.io/badge/Expo-compatible-orange.svg?style=flat-square)
+![Expo](https://img.shields.io/badge/Expo-compatible-green.svg?style=flat-square)
 
 
 **Versión:** `v1.8.8`
@@ -49,7 +48,6 @@ npm install react-native-toast-factory
           <Toaster /> {/* Add the Toaster at the top of your app */}
           <Text>My App</Text>
           {/* Other components */}
-          <Toaster /> {/* Add the Toaster at the top of your app */}
         </View>
     
     );
@@ -166,6 +164,7 @@ npm install react-native-toast-factory
 | `loadingColor`      | `string` _(optional)_                                            | Color of the loading indicator if a loading toast is shown.                                 |
 | `progressColor`     | `string` _(optional)_                                            | Color of the toast progress bar.                                                            |
 | `width`             | `number` _(optional)_                                            | Custom width of the toast.                                                                  |
+| `opacity`      | `number` _(optional)_                                        | Indicates the opacity of the background.                                       |
 | `height`            | `number` _(optional)_                                            | Custom height of the toast.                                                                 |
 | `top`               | `number` _(optional)_                                            | Custom top position of the toast on the screen.                                             |
 | `bottom`            | `number` _(optional)_                                            | Custom bottom position of the toast on the screen.                                          |
