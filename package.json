@@ -1,5 +1,5 @@
 {
-  "name": "react-native-factory-toast",
+  "name": "react-native-toast-factory",
   "version": "1.8.8",
   "description": "🍞 This module is about displaying Toasts in React Native.",
   "main": "./dist\\module\\index.js",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gabriel117343/React-native-factory-toast.git"
+    "url": "git+https://github.com/Gabriel117343/React-native-toast-factory.git"
   },
   "peerDependencies": {
     "react": "^18.2.0",
@@ -92,9 +92,9 @@
   ],
   "private": false,
   "bugs": {
-    "url": "https://github.com/Gabriel117343/React-native-factory-toast/issues"
+    "url": "https://github.com/Gabriel117343/React-native-toast-factory/issues"
   },
-  "homepage": "https://github.com/Gabriel117343/React-native-factory-toast#readme",
+  "homepage": "https://github.com/Gabriel117343/React-native-toast-factory#readme",
   "directories": {
     "test": "test"
   }

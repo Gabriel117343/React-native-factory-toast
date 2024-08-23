@@ -1,5 +1,5 @@
 import { ToastProps } from './toastTypes';
-declare module 'react-native-toast-lite' {
+declare module 'react-native-toast-factory' {
   import { ComponentType } from 'react';
   export const Toaster: ComponentType;
   export const toast: {

@@ -1,18 +1,18 @@
-# react-native-factory-toast
+# react-native-toast-factory
 
-![npm version](https://img.shields.io/npm/v/react-native-factory-toast.svg?style=flat-square)
-![npm downloads](https://img.shields.io/npm/dm/react-native-factory-toast.svg?style=flat-square)
-![License](https://img.shields.io/npm/l/react-native-factory-toast.svg?style=flat-square)
-![Build Status](https://img.shields.io/github/actions/workflow/status/Gabriel117343/React-native-factory-toast/main.yml?style=flat-square)
+![npm version](https://img.shields.io/npm/v/react-native-toast-factory.svg?style=flat-square)
+![npm downloads](https://img.shields.io/npm/dm/react-native-toast-factory.svg?style=flat-square)
+![License](https://img.shields.io/npm/l/react-native-toast-factory.svg?style=flat-square)
+![Build Status](https://img.shields.io/github/actions/workflow/status/Gabriel117343/React-native-toast-factory/main.yml?style=flat-square)
 ![Platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-blue.svg?style=flat-square)
-![Issues](https://img.shields.io/github/issues/Gabriel117343/React-native-factory-toast?style=flat-square)
+![Issues](https://img.shields.io/github/issues/Gabriel117343/React-native-toast-factory?style=flat-square)
 ![Expo](https://img.shields.io/badge/Expo-compatible-orange.svg?style=flat-square)
 
 
 **Versión:** `v1.8.8`
 ## Descripción
 
-**🏭react-native-factory-toast**  is a Toast notification library for React Native applications. It provides an easy and customizable way to display brief, non-intrusive messages in your app. The library supports various types of messages, such as errors and successes, with simple customization options to fit your app's design.
+**🏭react-native-toast-factory**  is a Toast notification library for React Native applications. It provides an easy and customizable way to display brief, non-intrusive messages in your app. The library supports various types of messages, such as errors and successes, with simple customization options to fit your app's design.
 
 ## Features
 
@@ -29,7 +29,7 @@
 To install the library, run the following command:
 
 ```bash
-npm install react-native-factory-toast
+npm install react-native-toast-factory
 ```
 
 > Ejemplo de Uso
@@ -41,7 +41,7 @@ npm install react-native-factory-toast
     import React from 'react';
     import { View, Text } from 'react-native';
     
-    import { Toaster } from 'react-native-factory-toast'; // Ensure you import the Toaster component
+    import { Toaster } from 'react-native-toast-factory'; // Ensure you import the Toaster component
     
     const App = () => (
     
@@ -65,7 +65,7 @@ npm install react-native-factory-toast
    ```jsx
     import React from 'react';
     import { Button, View } from 'react-native';
-    import { toast } from 'react-native-factory-toast';
+    import { toast } from 'react-native-toast-factory';
     
     const ExampleComponent = () => {
       const showSuccessToast = () => {
