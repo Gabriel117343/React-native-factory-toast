@@ -1,0 +1,55 @@
+# Dependencias
+node_modules/
+
+# Archivos de construcción
+dist/
+build/
+
+
+# Archivos de configuración
+*.log
+*.tsbuildinfo
+*.tgz
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Archivos de documentación
+docs/
+*.md
+
+# Archivos de pruebas
+coverage/
+test/
+tests/
+__tests__/
+__mocks__/
+*.spec.js
+*.test.js
+
+# Archivos de ejemplos
+examples/
+demo/
+
+# Archivos de editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Otros archivos temporales
+tmp/
+temp/
+
+# Excluir el código fuente TypeScript
+src/
+.git
+.map
+*.map
+.babelrc
