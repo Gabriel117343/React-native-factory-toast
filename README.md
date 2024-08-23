@@ -10,7 +10,7 @@
 **Versión:** `v1.8.8`
 ## Descripción
 
-**react-native-factory-toast**  is a Toast notification library for React Native applications. It provides an easy and customizable way to display brief, non-intrusive messages in your app. The library supports various types of messages, such as errors and successes, with simple customization options to fit your app's design.
+**🏭react-native-factory-toast**  is a Toast notification library for React Native applications. It provides an easy and customizable way to display brief, non-intrusive messages in your app. The library supports various types of messages, such as errors and successes, with simple customization options to fit your app's design.
 
 ## Características
 
