@@ -33,7 +33,6 @@ export interface ToastProps {
       borderColor?: string;
       iconSize?: number;
       iconStyle?: 'solid' | 'outline' | 'default';
-      loadingColor?: string;
       progressColor?: string;
       width?: number;
       opacity?: number;

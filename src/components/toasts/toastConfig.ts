@@ -162,8 +162,8 @@ export const TOAST_CONFIG = {
     },
   },
   loading: {
-    title: 'Cargando',
-    message: 'Cargando...',
+    title: 'Loading',
+    message: 'Loading...',
 
     titleSize: 18,
     textSize: 16,
@@ -181,7 +181,7 @@ export const TOAST_CONFIG = {
       textColor: '#666666',
       backgroundColor: '#f0f0f0',
       borderColor: '#cccccc',
-      iconColor: '#ff5733', // Cambia el color del icono aquí
+      iconColor: '#0d6efd',
       progressColor: '#333333',
     },
     primaryDark: {

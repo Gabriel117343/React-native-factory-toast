@@ -113,7 +113,7 @@ export const Toast: React.FC<ToastProps> = ({
         {
           borderWidth: border ? 1 : 0,
           width: styles?.width ?? '90%',
-          minHeight: styles?.height ?? 60,
+          minHeight: styles?.height ?? 55,
           borderColor:
             styles?.borderColor ?? TOAST_CONFIG[type][toastStyle].borderColor,
           borderRadius: styles?.borderRadius ?? 15,

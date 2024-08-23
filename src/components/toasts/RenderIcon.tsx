@@ -11,11 +11,12 @@ import ErrorSvg from '../ui/ErrorSvg';
 import SuccessSvg from '../ui/SuccessSvg';
 import InfoSvg from '../ui/InfoSvg';
 import WarningSvg from '../ui/WarningSvg';
-import { CustomActivityIndicator } from './CustomActivityIndicator';
+import CustomLoading from './CustomLoading';
 interface RenderIconProps {
   type: 'error' | 'success' | 'info' | 'warning' | 'loading';
   toastStyle: 'primary' | 'secondary' | 'primaryDark' | 'dark'; // este parametro si tiene un valor por defecto
   icon?: string; // emoji
+  loadingType?: 'pulse' | 'wave';
   iconColor?: string; // opcionales
   iconSize?: number;
   iconStyle?: 'solid' | 'outline' | 'default';
@@ -98,7 +99,7 @@ export const RenderIcon: React.FC<RenderIconProps> = ({
           />
         );
       case 'loading':
-        return <CustomActivityIndicator size={iconSize} color={iconColor} />;
+        return <CustomLoading color={iconColor} size={iconSize} />;
       default:
         return null;
     }
