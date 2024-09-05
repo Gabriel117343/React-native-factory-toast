@@ -1,4 +1,4 @@
-#🏭React-native-toast-factory
+# 🏭React-native-toast-factory
 
 ![npm version](https://img.shields.io/npm/react-native-toast-factory.svg?style=flat-square)
 ![npm downloads](https://img.shields.io/npm/dm/react-native-toast-factory.svg?style=flat-square)
