@@ -1,4 +1,4 @@
-# react-native-toast-factory
+#🏭React-native-toast-factory
 
 ![npm version](https://img.shields.io/npm/react-native-toast-factory.svg?style=flat-square)
 ![npm downloads](https://img.shields.io/npm/dm/react-native-toast-factory.svg?style=flat-square)
@@ -31,9 +31,9 @@ To install the library, run the following command:
 npm install react-native-toast-factory
 ```
 
-> Ejemplo de Uso
+> Example
 
-2. **Configurar el Toast Provider (Toaster):**
+2. **Setting up the toast provider (Toaster):**
 
    make sure to add the `Toaster` at the entry point of your application so that toast can be rendered there:
     ```jsx
@@ -41,7 +41,7 @@ npm install react-native-toast-factory
     import { View, Text } from 'react-native';
     
     import { Toaster } from 'react-native-toast-factory'; // Ensure you import the Toaster component
-    
+ 
     const App = () => (
     
         <View style={{ flex: 1 }}>
@@ -100,7 +100,7 @@ npm install react-native-toast-factory
       };
     
       // Real-world example
-      const sendData = () => {
+      const sendData = async () => {
         toast.loading("Loading...", {
           id: "loadData",
           duration: 2000,
@@ -109,7 +109,7 @@ npm install react-native-toast-factory
           icon: '⏳', // Custom icon (emoji)
         });
         try {
-          const { success, message } = axios.post('https://....');
+          const { success, message } = await axios.post('https://....');
           if (success) { 
             toast.info(message, { id: 'loadData', title: 'Success!' }); // Inherits position and toastStyle
           } else {
